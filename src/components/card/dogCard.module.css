@@ -1,0 +1,27 @@
+.card {
+    position: relative;
+    width: 450px;
+    height: 425px;
+    border: 5px solid;
+    border-image-source: linear-gradient(90deg, orange, black);
+    border-image-slice: 1; 
+    background-color: rgba(230, 152, 51, 0.3);
+    /* border-inline-start: 4px solid;
+    border-block-start: 4px solid;
+    border-image-source: radial-gradient(circle at top left, black, transparent 50%);
+    border-image-slice: 1; */
+    padding: 5px;
+    transition: 0.5 all;
+    color: black;
+    font-size: 18px;
+}
+
+.card:hover {
+    background-color: var(--orange);
+    box-shadow: 0 0 10px 5px black;
+}
+
+.img {
+    width: 70%;
+    height: 200px;
+}
