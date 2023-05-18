@@ -30,6 +30,7 @@
 
 .container {
   position: relative;
+  min-height: 100vh;
 }
 .container a {
   text-decoration: none;
@@ -56,9 +57,7 @@
     align-content: stretch;
     gap: 54px;
     padding: 2% 1%;
-    padding-bottom: 33%;
     box-sizing: border-box;
-    height: 100%;
 }
 
 .cardContainer a {
